@@ -1,4 +1,5 @@
 package main
+
 import "strings"
 
 func greet(name string) string {

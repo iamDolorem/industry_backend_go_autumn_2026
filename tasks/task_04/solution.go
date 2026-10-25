@@ -19,7 +19,7 @@ func Calc(nums []int64) Stats {
 	}
 
 	for i := 2; i < len(nums); i++ {
-		diff = nums[i] - nums[i - 1]
+		diff = nums[i] - nums[i-1]
 		stats.Count += 1
 		stats.Sum += diff
 		if diff < stats.Min {
